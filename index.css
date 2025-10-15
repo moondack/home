@@ -16,7 +16,7 @@ header ul {
 }
 
   body {
-    background-image: url(../img/background.png);
+    background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-position: 930px 0px;
   }
@@ -46,3 +46,4 @@ html {
   text-decoration: none;
   color: #000;
 }
+
