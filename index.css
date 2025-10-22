@@ -1,4 +1,4 @@
-header ul { 
+header ul {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -6,40 +6,100 @@ header ul {
     list-style: none;
 }
 
-
 .Zet{
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 650px;     
-  width: 100%;          
+display: flex;
+justify-content: center;
+align-items: center;    
+height: 650px;    
+width: 100%;        
 }
 
-  .abhaya-libre-bold {
-  font-family: "Abhaya Libre", serif;
-  font-weight: 400;
-  font-style: normal;
+.abhaya-libre-bold {
+font-family: "Abhaya Libre", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 html {
-   font-family: "Abhaya Libre", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 25px;
+font-family: "Abhaya Libre", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 25px;
 }
 
- .mag {
-   display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 200px;     
-  width: 100%;          
+.mag {
+display: flex;
+justify-content: center;
+align-items: center;    
+height: 200px;    
+width: 100%;        
 }
 
 .back {
-  text-decoration: none;
-  color: #000;
+text-decoration: none;
+color: #000;
 }
 
+@media (max-width: 320px) {
+header ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin: 20px auto;
+}
 
+.Zet {
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
 
+html {
+    font-size: 18px;
+}
+
+.mag {
+    height: 150px;
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+}
+
+@media (max-width: 480px) {
+.Zet {
+    height: 500px;
+}
+
+html {
+    font-size: 20px;
+}
+
+header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+}
+
+@media (max-width: 280px) {
+html {
+    font-size: 16px;
+}
+
+.Zet {
+    height: 350px;
+}
+
+.mag {
+    height: 120px;
+}
+}
