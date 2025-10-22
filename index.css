@@ -16,9 +16,7 @@ header ul {
 }
 
   body {
-    background-image: url(img/background.png);
-    background-repeat: no-repeat;
-    background-position: 930px 0px;
+
   }
 
   .abhaya-libre-bold {
@@ -46,4 +44,5 @@ html {
   text-decoration: none;
   color: #000;
 }
+
 
