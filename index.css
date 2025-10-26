@@ -42,11 +42,13 @@ color: #000;
 
 @media (max-width: 320px) {
 header ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 0;
-    margin: 20px auto;
+    flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 19px;
 }
 
 .Zet {
@@ -90,9 +92,9 @@ header ul {
 }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 320px) {
 html {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .Zet {
@@ -103,3 +105,4 @@ html {
     height: 120px;
 }
 }
+
